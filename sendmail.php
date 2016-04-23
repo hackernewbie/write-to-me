@@ -10,7 +10,7 @@ if($_POST["foo"]==''):/* if the input is not empty it means that a SPAM BOT fill
 	if($name=='' || $email=='' || $message==''): echo '2'; exit(); endif; /* if some values is missing, return the error */
 	
 	/* remove this line */
-	if($recipient=='rajiv@webguy.in'): echo '1'; exit(); endif;
+	if($recipient=='someone@webguy.in'): echo '1'; exit(); endif;
 	/* end removable line */
 	
 	$date=date("d M Y - h:1 a");
